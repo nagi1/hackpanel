@@ -64,6 +64,7 @@ return [
             'export',
             'print',
             'reload',
+            'delete',
         ],
     ],
 
@@ -79,7 +80,7 @@ return [
         /*
          * Default buttons to generate when not set.
          */
-        'buttons' => 'create,export,print,reload',
+        'buttons' => 'create,export,delete,print,reload',
 
         /*
          * Default DOM to generate when not set.

@@ -15,7 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
@@ -34,3 +33,15 @@ Route::post(
     'generator_builder/generate-from-file',
     '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@generateFromFile'
 );
+
+Route::resource('apps', 'AppController');
+
+Route::resource('keys', 'KeyController');
+
+Route::resource('plans', 'PlanController');
+
+Route::resource('roles', 'RoleController');
+
+Route::resource('users', 'UserController');
+
+Route::get('/home', 'HomeController@index')->name('home');

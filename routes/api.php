@@ -16,3 +16,15 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('keyLogin', 'KeyAPIController@keyLogin');
+
+Route::resource('apps', 'AppAPIController');
+
+Route::resource('keys', 'KeyAPIController');
+
+Route::resource('plans', 'PlanAPIController');
+
+Route::resource('roles', 'RoleAPIController');
+
+Route::resource('users', 'UserAPIController');
