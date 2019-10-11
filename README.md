@@ -163,7 +163,7 @@ public ApiHandler(string apiToken, string appToken, string apiUrl);
  public dynamic post(string url, Dictionary<string, object> data);
 ```
 
-### send POST request
+### send GET request
 
 ```c#
     public dynamic get(string url);
