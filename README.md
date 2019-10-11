@@ -4,9 +4,9 @@
 
 <!-- Title and slug-->
 
-# Hackpanel[WIP]: Client and API for Hacks/Bybass creators
+# Hackpanel: Client and API for Hacks/Bybass creators
 
-> Hackpanel provides fast and easy way for Hacks/Bybass creators to control access to their apps using keys and HWID.
+> Hackpanel provides fast and easy way for Hacks/Bybass creators to control access to their apps using keys and [HWID](https://geologismiki.gr/Documents/How%20does%20registration%20work.pdf).
 > to help them focus more on creating awesome hacks!
 
 <br>
@@ -43,7 +43,8 @@
 - [Special Note](#special-note-dont-read-it-out-load)
 - [Special Special Note](#okay-what-next)
 - [Contributing](#contributing)
-- [Todo](#todo)
+- [Built Using](#built-using)
+- [Todo List](#todo-list)
 - [License](#license)
 
 ---
@@ -265,15 +266,29 @@ To all of those who wanted to get involved this journey of learning and make ame
 - **Generate API Docs**
 - **Apply some [OOP principles](https://medium.com/@cancerian0684/what-are-four-basic-principles-of-object-oriented-programming-645af8b43727)**
 
-## Todo
+## Todo List
 
-- [ ] Refactor the Key Login into it's own package.
+- [ ] Refactor the Key Login system into it's own package.
+- [ ] Implement Roles and permission.
+- [ ] Implement Multiple deletes in datatables.
+- [ ] Webhooks support.
+- [ ] Implement downloadable files.
+- [ ] Simple CMS to manage index page.
 - [ ] Rewrite API code base from scratch.
 - [ ] Rewrite example Client code base from scratch.
 - [ ] Apply some OOP principle.
 - [ ] Write Unit tests
 - [ ] Write DocBlocks
 - [ ] Rewrite this Readme File
+
+---
+
+## Built Using
+
+- [Laravel](https://laravel.com/)
+- [Infyom Laravel Generator](http://labs.infyom.com/)
+- [AdminLTE](https://github.com/jeroennoten/Laravel-AdminLTE)
+- [Yajra DataTables](https://github.com/yajra/laravel-datatables)
 
 ---
 
