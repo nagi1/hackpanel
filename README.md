@@ -4,7 +4,7 @@
 
 <!-- Title and slug-->
 
-# Hackpanel: Client and API for Hacks/Bybass creators
+# Hackpanel: API and Client for Hacks/Bybass creators
 
 > Hackpanel provides fast and easy way for Hacks/Bybass creators to control access to their apps using keys and [HWID](https://geologismiki.gr/Documents/How%20does%20registration%20work.pdf).
 > to help them focus more on creating awesome hacks!
