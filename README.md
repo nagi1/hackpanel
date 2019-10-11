@@ -60,7 +60,7 @@ I've got the idea when a One of my friends who was a **PUBG bybass creator** wit
 ## Features
 
 - Easy to use UI
-- .NET client example
+- [Hackpanel example .net client](https://github.com/nagi1/hackpanelclient)
 - Manage Multiple apps
 - Key-locked HWID (**H**ard**w**are **ID**)
 
@@ -90,7 +90,7 @@ php artisan passport:install
 
 ## Client
 
-navigate to Client Repo
+navigate to [Hackpanel example .net client](https://github.com/nagi1/hackpanelclient)
 
 ---
 
@@ -145,7 +145,7 @@ using laravel awesome [Route::resource()](https://laravel.com/docs/5.7/controlle
 
 ## Client
 
-Hackpanel example .net client handles every request using **ApiHandler.cs** library.
+[Hackpanel example .net client](https://github.com/nagi1/hackpanelclient) handles every request using **ApiHandler.cs** library.
 
 ```c#
 public ApiHandler(string apiToken, string appToken, string apiUrl);
@@ -163,7 +163,7 @@ public ApiHandler(string apiToken, string appToken, string apiUrl);
  public dynamic post(string url, Dictionary<string, object> data);
 ```
 
-### GET POST request
+### send POST request
 
 ```c#
     public dynamic get(string url);
