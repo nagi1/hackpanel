@@ -248,7 +248,7 @@ To all of those who wanted to get involved this journey of learning and make ame
   - Fork this repo!
   
 - **Option 2**
-  - Clone this repo to your local machine using `git clone https://github.com/joanaz/HireDot2.git`
+  - Clone this repo to your local machine using `git clone https://github.com/nagi1/hackpanel.git`
 
 ### Step 3
 
@@ -256,7 +256,7 @@ To all of those who wanted to get involved this journey of learning and make ame
 
 ### Step 4
 
-- Create a new pull request using <https://github.com/joanaz/HireDot2/compare>
+- Create a new pull request using <https://github.com/nagi1/hackpanel/compare>
 
 ---
 
